@@ -1,4 +1,4 @@
-import { data } from './data.js';
+import { data } from './data.js'; 
 
 const handleData = () => {
 	const summaryItems = document.querySelectorAll('.app__summary-list-item');
