@@ -37,6 +37,7 @@ body {
 		max-height: 50%;
 		background-image: linear-gradient($light-slate-blue 25%, $light-royal-blue);
 		border-radius: 0 0 2.5em 2.5em;
+		z-index: 5;
 
 		&-title {
 			margin-bottom: 1em;
@@ -88,6 +89,7 @@ body {
 		padding: 2em 2em 3.5em;
 		border-radius: 0 0 2.5em 2.5em;
 		background-color: $white;
+		z-index: 2;
 
 		&::before {
 			content: '';
@@ -97,7 +99,7 @@ body {
 			right: 0;
 			height: 3em;
 			background-color: $white;
-			z-index: -1;
+			z-index: 1;
 		}
 
 		&-title {
@@ -168,14 +170,21 @@ body {
 			margin-top: 0.5em;
 			padding: 1.2em;
 			width: 100%;
-			font-size: 1.8rem;
+			font-size: 2rem;
 			color: $white;
 			font-weight: 600;
 			background-color: $dark-gray-blue;
-			border: none;
+			border: 2px solid transparent;
+			box-shadow: 0 2px 5px $dark-gray-blue;
 			border-radius: 3rem;
 			cursor: pointer;
 			transition: background-color 0.3s;
+
+			&:focus {
+				outline: none;
+				border: 2px solid $light-red;
+				box-shadow: 0 2px 5px $light-red;
+			}
 
 			&:hover {
 				background-color: $light-royal-blue;
