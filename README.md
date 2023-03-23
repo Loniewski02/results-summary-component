@@ -21,8 +21,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: https://github.com/Loniewski02/QR-code-component
-- Live Site URL: https://loniewski02.github.io/QR-code-component/
+- Solution URL: https://github.com/Loniewski02/results-summary-component
+- Live Site URL: https://loniewski02.github.io/results-summary-component/
 
 ## My process
 
@@ -32,6 +32,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - SASS
 - Flexbox
 - Mobile-first workflow
+- JavaScript
 
 ## Author
 
