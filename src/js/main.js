@@ -1,4 +1,4 @@
-import { data } from './data.js'; 
+import { data } from './data.js';
 
 const handleData = () => {
 	const summaryItems = document.querySelectorAll('.app__summary-list-item');
@@ -9,7 +9,7 @@ const handleData = () => {
 		const span = document.createElement('span');
 
 		img.setAttribute('src', data[i].icon);
-		img.setAttribute('alt', ' ');
+		img.setAttribute('alt', '');
 
 		span.innerHTML = data[i].score;
 
