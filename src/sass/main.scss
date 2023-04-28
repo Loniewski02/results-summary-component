@@ -13,13 +13,13 @@ html {
 }
 
 body {
-	display: flex;
-	justify-content: center;
+	display: grid;
+	place-items: center;
 	align-items: flex-start;
 	min-height: 100vh;
 	font-family: 'Hanken Grotesk', sans-serif;
 	font-size: 1.6rem;
-	background-color: $pale-blue;
+	background-color: $white;
 }
 
 .app {
@@ -173,7 +173,7 @@ body {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1440px) {
 	body {
 		align-items: center;
 	}
