@@ -1,7 +1,6 @@
 # Frontend Mentor - Results summary component solution
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,9 +15,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-![](./desktop-view.png)
-![](./mobile-view1.png)
-![](./mobile-view2.png)
+![](./screens/desktop-view.png)
+![](./screens/mobile-view.png)
 
 ### Links
 
@@ -38,5 +36,3 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Author
 
 - Frontend Mentor - [@Loniewski02](https://www.frontendmentor.io/profile/Loniewski02)
-
-

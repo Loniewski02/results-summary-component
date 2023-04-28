@@ -1,6 +1,8 @@
-import { data } from './data.js';
+const URL = 'data.json';
 
-const handleData = () => {
+async function handleData() {
+	const response = await axios.get(URL);
+	let data = response.data;
 	const summaryItems = document.querySelectorAll('.app__summary-list-item');
 
 	for (let i = 0; i < data.length; i++) {
@@ -20,6 +22,6 @@ const handleData = () => {
 		summaryItems[i].append(data[i].category);
 		summaryItems[i].appendChild(paragraph);
 	}
-};
+}
 
 handleData();
