@@ -20,8 +20,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: https://github.com/Loniewski02/results-summary-component
-- Live Site URL: https://loniewski02.github.io/results-summary-component/
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/results-summary-component-solution-9uiQVmOnPf)
+- Live Site URL: [live](https://loniewski02.github.io/results-summary-component/)
 
 ## My process
 
